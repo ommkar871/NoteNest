@@ -46,5 +46,5 @@ notesForm.addEventListener('submit', (e) => {
 
 video.addEventListener('ended', () => {
     // You can customize the destination URL dynamically based on userChoice if needed
-    window.location.href = "https://your-destination-library-site.com"; 
+    window.location.href = "#"; 
 });
