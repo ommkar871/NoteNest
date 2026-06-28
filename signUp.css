@@ -169,7 +169,9 @@ a {
         font-size:1.2rem;
         margin-top:0.5rem;
     }
-   
+    .or,form p{
+        color:#0b011c;
+    }
 
     .left p{
         font-size:1rem;
