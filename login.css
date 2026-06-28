@@ -11,7 +11,8 @@ a {
 }
 
 .login{
-    background: url(/background-login.png);
+    /* background: url(/background-login.png); */
+    background: radial-gradient(circle, #1a0b2e 0%, #000000 100%);
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
@@ -22,7 +23,13 @@ a {
     align-items: center;
 }
 .login-form-wrapper{
-    background-color: none;
+    /* background-color: none; */
+    background: rgba(20, 16, 28, 0.75);
+    /* border: 1px solid rgba(255, 255, 255, 0.08); */
+    
+    border: 1px solid rgba(144, 95, 242, 0.25);
+    box-shadow: 0 0 35px rgba(254, 253, 253, 0.428);
+    /* box-shadow: 0 0 40px rgba(111, 66, 193, 0.15); Purple outer glow */
     width: 80%;
     height: 80%;
     position: absolute;
@@ -39,6 +46,8 @@ a {
 .right-form{
     position: absolute;
     left: 0%;
+
+    background: linear-gradient(135deg, #321654 0%, #120621 100%);
     
     color: antiquewhite;
 
@@ -47,12 +56,12 @@ a {
     justify-content: center;
     align-items: center;
 
-    width: 50%;
+    width: 53%;
     height: 100%;
     font-family: "Cinzel",sans-serif;
 }
 .right-form span{
-    font-size: 10dvh;
+    font-size: 8dvh;
 }
 .left-form{
 
@@ -61,6 +70,8 @@ a {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     /* background-color: black; */
+    
+
     position: relative;
     z-index: 4;
     top: 0%;
@@ -68,8 +79,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
+    align-items: start;
+    padding-left: 5%;
     font-family: "Zilla Slab",sans-serif;
 }
 
@@ -82,14 +93,19 @@ a {
     .right-form span{
         display: none;
     }
+    
 }
 
 .left-form{
     color: antiquewhite;
+    /* background: linear-gradient(135deg, #14111c 0%, #0d0a12 100%); */
+
+    background: linear-gradient(135deg, #14111c 0%, #0d0a12 100%);
     background-color: rgba(255, 255, 255, 0.06); 
     backdrop-filter: blur(12px);                 
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .logo-container{
     display: inline-block;
     font-size: 1.2rem;
@@ -98,6 +114,7 @@ a {
     .logo-container{
         display:none;
     }
+    
     
 }
 
@@ -118,21 +135,29 @@ a {
     width: 80%;
     text-align: match-parent;
 
-    background: transparent;
+    /* background: transparent; */
     color: antiquewhite;
     border: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 1rem;
+
+    padding: 2.7%;
+    background: linear-gradient(to bottom, #1f1235 0%, #0d0617 100%);
+    border: 1px solid rgba(144, 95, 242, 0.2); /* Subtle purple border to define edges */
+
+    /* border-radius: 7%; */
 }
 .divider{
+    width: 80%;
     font-size: 0.8rem;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .btn-google{
     width: 80%;
     text-align: center;
 
-    background: transparent;
+    /* background: transparent; */
     color: antiquewhite;
 
     display: flex;
@@ -140,26 +165,39 @@ a {
     gap: 2%;
     align-items: center;
 
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2.7%;
+
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+
+    background: linear-gradient(to bottom, #1f1235 0%, #0d0617 100%);
+    border: 1px solid rgba(144, 95, 242, 0.2); /* Subtle purple border to define edges */
+
+    border-radius: 8%;
 
     margin-bottom: 5%;
 }
 
 .input-group{
+    width: 80%;
+
     background-color:none; /* Strips default background & adds a sheer white tint */
     backdrop-filter: blur(8px);                  /* Gives the input area a frosted glass look */
     -webkit-backdrop-filter: blur(8px);          /* Safari support */
-    text-align: center;
+    text-align: start;
 
     /* --- Ultra-thin, Even Border --- */
     border: 1px solid rgba(255, 255, 255, 0.15); /* Thin, evenly colored translucent border */
     border-radius: 0.4rem;
 
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     margin-bottom: 3%;
 }
 .input-group input::placeholder {
     color: rgba(255, 255, 255, 0.4);
     border-color: none;
+    
 }
 .input-group input:focus {
     /* border-color: rgba(255, 255, 255, 0.4); */
@@ -170,13 +208,15 @@ a {
     
 }
 .input-group input{
-    width: 50%;
+    width: 80%;
 
     background: transparent;
     text-align: start;
     border: none;
 }
 .forgot-password-container{
+    width: 80%;
+    text-align: center;
     margin-bottom: 2%;
     font-size: 0.8rem;
 }
