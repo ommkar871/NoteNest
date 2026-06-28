@@ -13,9 +13,14 @@ body {
     color:#fff;
     overflow:hidden;
     
-    background-image: url('backis.avif');
-    background-size: cover;
-  
+    /* background-image: url('backis.avif');
+    background-size: cover; */
+    background: linear-gradient(
+  135deg,
+  #000000,
+  #06000b,
+  #170427
+);
 }
 /* .bg {
     position:fixed;
@@ -51,7 +56,7 @@ label{
 label a{
     margin-left: 0.3rem;
     margin-right: 0.3rem;
-    color:#553f7c;
+    color:#695b83;
     font-weight: 600
 
 }
@@ -107,7 +112,7 @@ button img{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#553f7c;
+    color:#695b83;
     font-weight: 600
 }
 .right h2{
