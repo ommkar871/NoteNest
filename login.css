@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Inherits the font color of the parent element */
+    cursor: pointer;
+}
+
+.login{
+    background: url(/background-login.png);
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-wrapper{
+    background-color: none;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    z-index: 1;
+}
+
+@media screen and (max-width:600px){
+    .login-form-wrapper{
+        height: 75%;
+        border-radius: 5%;
+    }
+}
+
+.right-form{
+    position: absolute;
+    left: 0%;
+    
+    color: antiquewhite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+    font-family: "Cinzel",sans-serif;
+}
+.right-form span{
+    font-size: 10dvh;
+}
+.left-form{
+
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    /* background-color: black; */
+    position: relative;
+    z-index: 4;
+    top: 0%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Zilla Slab",sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    .left-form{
+        width: 100%;
+        left: 0%;
+        border-radius: 5%;
+    }
+    .right-form span{
+        display: none;
+    }
+}
+
+.left-form{
+    color: antiquewhite;
+    background-color: rgba(255, 255, 255, 0.06); 
+    backdrop-filter: blur(12px);                 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo-container{
+    display: inline-block;
+    font-size: 1.2rem;
+}
+@media screen and (min-width:760px){
+    .logo-container{
+        display:none;
+    }
+    
+}
+
+.welcome-title{
+    
+    font-size: 1.2rem;
+    font-weight: 200;
+    
+    margin-bottom: 5%;
+}
+
+.welcome-title h1{
+    font-weight: 500;
+}
+.btn-login{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%;
+    text-align: match-parent;
+
+    background: transparent;
+    color: antiquewhite;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+}
+.divider{
+    font-size: 0.8rem;
+    margin-bottom: 2%;
+}
+
+.btn-google{
+    width: 80%;
+    text-align: center;
+
+    background: transparent;
+    color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    margin-bottom: 5%;
+}
+
+.input-group{
+    background-color:none; /* Strips default background & adds a sheer white tint */
+    backdrop-filter: blur(8px);                  /* Gives the input area a frosted glass look */
+    -webkit-backdrop-filter: blur(8px);          /* Safari support */
+    text-align: center;
+
+    /* --- Ultra-thin, Even Border --- */
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Thin, evenly colored translucent border */
+    border-radius: 0.4rem;
+
+    margin-bottom: 3%;
+}
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    border-color: none;
+}
+.input-group input:focus {
+    /* border-color: rgba(255, 255, 255, 0.4); */
+    border-color: none;
+    /* background-color: rgba(255, 255, 255, 0.08); */
+    outline: none;
+    box-shadow: none;
+    
+}
+.input-group input{
+    width: 50%;
+
+    background: transparent;
+    text-align: start;
+    border: none;
+}
+.forgot-password-container{
+    margin-bottom: 2%;
+    font-size: 0.8rem;
+}
+
+.signup-text{
+    font-size: 0.8rem;
+}

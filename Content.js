@@ -1,4 +1,5 @@
-
+var menu = document.querySelector(".menu");
+var cross  = document.querySelector("#full i");
 gsap.from(".chemCycle h1",{
     opacity:0,
     duration:0.5,
@@ -61,3 +62,28 @@ const observer = new IntersectionObserver((entries, observer) => {
 }, { threshold: 0.5 });
 
 counters.forEach(counter => observer.observe(counter));
+
+
+var ti = gsap.timeline();
+ti.to("#full",{
+  left:0,
+  duration:0.4,
+  
+})
+
+ti.from("#full p",{
+  x:-50,
+  
+  opacity:0,
+  duration:0.5,
+  stagger:0.28
+})
+
+ti.pause();
+
+menu.addEventListener("click",function(){
+  ti.play();
+})
+cross.addEventListener("click",function(){
+  ti.reverse();
+})
