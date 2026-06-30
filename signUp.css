@@ -13,9 +13,14 @@ body {
     color:#fff;
     overflow:hidden;
     
-    background-image: url("https://media.istockphoto.com/id/2162705403/vector/bright-vector-background-of-northern-lights-over-the-mountains.jpg?s=612x612&w=0&k=20&c=7_TpqfniWS388kUdHA81DPANxVyfVaIMbiLp3lxHN7g=");
-    background-size: cover;
-  
+    /* background-image: url('backis.avif');
+    background-size: cover; */
+    background: linear-gradient(
+  135deg,
+  #000000,
+  #06000b,
+  #170427
+);
 }
 /* .bg {
     position:fixed;
@@ -35,7 +40,7 @@ body {
     overflow:hidden
 }
 .card{
-    box-shadow:0 0 2rem rgba(56, 9, 47, 0.8) ;
+    box-shadow:0 0 1rem rgba(159, 150, 158, 0.8) ;
 }
 .left,.right { 
     flex:1;
@@ -51,7 +56,7 @@ label{
 label a{
     margin-left: 0.3rem;
     margin-right: 0.3rem;
-    color:#0d0123;
+    color:#695b83;
     font-weight: 600
 
 }
@@ -60,7 +65,7 @@ label a{
     display:flex;
     flex-direction:column;
     justify-content:center; 
-    background:linear-gradient(135deg,#7b2fff,#26054c)
+    background:linear-gradient(135deg,#3c216a,#040109)
 }
 .left h1 {
     font-size:3rem;
@@ -81,14 +86,15 @@ input {
     padding:0.9rem;
     border:none;
     border-radius:0.7rem;
-    background:#11111112;
+    background:#00000012;
+    
     
 }
 input:hover{
-     box-shadow:0 0 1rem rgba(38, 6, 33, 0.5) ;
+     box-shadow:0 0 1rem rgba(217, 200, 214, 0.5) ;
 }
 input::placeholder{
-    color:black;
+    color:#fff;
     font-size: 0.9rem;
 }
 button{
@@ -106,7 +112,7 @@ button img{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#0d0123;
+    color:#695b83;
     font-weight: 600
 }
 .right h2{
@@ -121,16 +127,16 @@ button {
     padding:0.9rem;
     border:none;
     border-radius:0.7rem;
-    background:linear-gradient(90deg,#784dbe,#321083);
+    background:linear-gradient(90deg,#37215c,#0b011c);
     color:#fff;
     font-size:1rem;
     cursor:pointer
 }
 button:hover{
-     box-shadow:0 0 1.5rem rgba(38, 6, 33, 0.8) ;
+     box-shadow:0 0 1rem rgba(130, 117, 128, 0.8) ;
 }
 form p{
-    color:#0b001e;
+    color:#553f7c;
     font-weight: 600
 }
 a {
@@ -168,7 +174,9 @@ a {
         font-size:1.2rem;
         margin-top:0.5rem;
     }
-   
+    .or,form p{
+        color:#0b011c;
+    }
 
     .left p{
         font-size:1rem;

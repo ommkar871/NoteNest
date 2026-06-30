@@ -8,7 +8,7 @@ gsap.from(".chemCycle h1",{
 })
 
 gsap.to("#heading h1",{
-    transform:"translateX(-200%)",
+    transform:"translateX(50%)",
     scrollTrigger:{
         trigger:"#heading h1",
         scroller:"body",
@@ -20,6 +20,8 @@ gsap.to("#heading h1",{
          
     }
 })
+
+
 gsap.from(".mathCycle h1",{
     opacity:0,
     duration:0.5,
@@ -27,6 +29,22 @@ gsap.from(".mathCycle h1",{
     x:-300
 })
 
+gsap.from(".trend",{
+  y:100,
+  opacity:0,
+  stagger:0.28,
+  duartion:0.6,
+  scrollTrigger:{
+    
+    trigger:".trendNotes",
+    start:"top 110%",
+    end:"top 0%",
+   
+    markers:false
+  }
+
+  }
+)
 
 var tl = gsap.timeline();
 
@@ -87,3 +105,8 @@ menu.addEventListener("click",function(){
 cross.addEventListener("click",function(){
   ti.reverse();
 })
+
+
+
+
+
