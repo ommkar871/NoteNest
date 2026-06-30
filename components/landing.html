@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo1.jpg">
+    <title>NoteNest</title>
+    <link rel="stylesheet" href="/components/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="herosection">
+    <div class="hidden-herosection">
+        <div><span><span style="color: #5b9cd7;">OUTR</span></span><span style="color: #163f7a;">DIGITAL</span> LIBRARY</div>
+    </div>
+    <div class="main-herosection">
+        <div class="wrapper"> 
+            <video id="bg-video" muted playsinline  >
+            <source src="/assets/backgrounds/landingvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="search-section hidden" id="search-section">
+            <h1>Find Your Cycle Notes</h1>
+            <form id="notes-form">
+                <!-- <input type="text" id="cycle-input" placeholder="Enter cycle.." required> -->
+                 <select id="cycle-input" required>
+                    <option value="" disabled selected>Select a cycle</option>
+                    <option value="physics">Physics Cycle</option>
+                    <option value="chemistry">Chemistry Cycle</option>
+                </select>
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/components/landing.js"></script>
+</body>
+</html>
