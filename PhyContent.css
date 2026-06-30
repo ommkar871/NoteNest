@@ -669,7 +669,12 @@ a{
         gap: 2rem;
         margin-top: 2rem;
     }
-
+    .trendNotes a {
+         width: 90%;
+        max-width: 340px;
+        height: auto;
+        transform: translateY(0);
+    }
     .trend{
         width: 90%;
         max-width: 340px;
