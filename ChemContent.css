@@ -750,3 +750,140 @@ a{
     }
 
 }
+/* ================= TABLET / iPAD RESPONSIVE ================= */
+
+@media (min-width:769px) and (max-width:1026px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .main{
+        height:auto;
+    }
+
+    /* Navbar */
+
+    .navbar{
+        width:97%;
+        margin-left:0;
+        padding:1rem;
+    }
+
+    .icon{
+        font-size:1rem;
+    }
+
+    .option{
+        width:17rem;
+        margin-left:2rem;
+        font-size:.9rem;
+    }
+
+    .option2{
+        transform:translateX(0);
+        gap:1rem;
+    }
+
+    .profile{
+        font-size:1.4rem;
+    }
+
+    .upload{
+        width:6.5rem;
+    }
+
+    /* Subjects */
+
+    .content{
+        margin:2rem;
+    }
+
+    .Cycle{
+        justify-content:center;
+        gap:2rem;
+        height:auto;
+    }
+
+    .subject{
+        width:14rem;
+        height:17rem;
+        font-size:1.2rem;
+    }
+
+    .logoCycle{
+        width:7rem;
+        height:7rem;
+        transform:translateX(0);
+        margin:auto;
+    }
+
+    #math1,
+    #math2{
+        transform:none;
+    }
+
+    .mathCycle{
+        margin-top:5rem;
+    }
+
+    /* Trending */
+
+    .trendNotes{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:2rem;
+        height:auto;
+    }
+
+    .trend{
+        width:18rem;
+        height:25rem;
+        transform:translateY(0);
+    }
+
+    .trendImg{
+        width:18rem;
+    }
+
+    .trendHead,
+    .more{
+        transform:translateY(0);
+    }
+
+    .trendHead{
+        font-size:2.3rem;
+    }
+
+    /* Upload Button */
+
+    .text{
+        font-size:1.3rem;
+        transform:translateY(0);
+        text-align:center;
+        flex-wrap:wrap;
+    }
+
+    .upload-btn-cyber{
+        position:relative;
+        bottom:0;
+        right:0;
+        margin:2rem auto;
+    }
+
+    /* Footer */
+
+    .footer{
+        flex-wrap:nowrap;
+        justify-content:center;
+        height:auto;
+        padding:2rem 0;
+    }
+
+    .footerMain{
+        width:45%;
+        height:auto;
+        margin-bottom:2rem;
+    }
+
+}
