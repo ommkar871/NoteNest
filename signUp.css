@@ -87,6 +87,7 @@ input {
     border:none;
     border-radius:0.7rem;
     background:#00000012;
+    color:#e6dfca;
     
     
 }
@@ -94,7 +95,7 @@ input:hover{
      box-shadow:0 0 1rem rgba(217, 200, 214, 0.5) ;
 }
 input::placeholder{
-    color:#fff;
+    color:#e6dfca;
     font-size: 0.9rem;
 }
 button{
