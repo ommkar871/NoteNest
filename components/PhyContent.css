@@ -1,27 +1,20 @@
 *{
     padding: 0%;
     margin:0%;
-   
 }
+
 body{
     background-color: black;
-    
     overflow-x: hidden;
 }
 
 .main{
     height:90rem;
     width:100%;
-    
     background-size: cover;
     background-color: black;
-    background-image:  url('backis.avif');
-    
-    
-    
-    
+    background-image: url('/assets/backgrounds/backis.avif'); /* PRESERVED DEFINITIVE CODE 1 PATH */
 }
-
 
 .navbar{
     background-color: transparent;
@@ -38,8 +31,8 @@ body{
 
 .content{
     margin:1.8rem;
-    
 }
+
 .icon{
     margin:0.5rem;
     display: flex;
@@ -47,6 +40,7 @@ body{
     font-size: 1.2rem;
     font-family: "Monteserat",sans-serif;
 }
+
 .option{
     height:2rem;
     width:20rem;
@@ -58,40 +52,55 @@ body{
     align-items: center;
     margin-left: 3rem;
 }
+
+.para{
+    opacity:0.5
+}
+
+.para:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
+/* Code 2 Variant updates for navbar link behaviors */
 .para a{
     opacity:0.5;
     color:white;
 }
+
 .para a:hover{
     opacity: 1;
     cursor:pointer;
-   
 }
+
 .icon h2{
     font-weight: 900;
 }
+
 .option2{
     display: flex;
     align-items: center;
-    transform:translateX(120%);
+    transform:translateX(105%); /* Code 1 Production Structural Wrapper */
     z-index:2;
 }
+
 .iconImg{
     height:2rem;
     width:2rem;
     border-radius:50%;
     margin-right: 0.5rem;
 }
+
 .profile{
-    padding-right: 0.8rem;
+    padding-right: 1rem; /* Preserved Code 1 Structure */
     font-size: 1.8rem;
     z-index: 1;
     opacity: 0.7;
 }
+
 .profile:hover{
     opacity: 1;
 }
-
 
 .Cycle{
     height:15rem;
@@ -99,72 +108,85 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
+
+/* Code 2 Cycle Heading alignment additions */
 .chemCycle h1{
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
 }
+
 h1{
     color:white;
     margin-bottom: 1rem;
     font-family:sans-serif;
 }
+
 .mathCycle{
-    margin-top: 10rem;
-    text-align: center;
+    margin-top: 8rem; /* Preserved Code 1 positioning baseline */
 }
+
 .logoCycle{
     height:8rem;
     width:8rem;
     border-radius: 50%;
-    
     transform: translateX(4rem);
 }
-#BE{
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzXsmxtK1lXH6xVThIHT9zQQPjhvXDB8iZA&s");
-    background-size: cover;
-}
-#EM{
-    background-image: url("https://thumbs.dreamstime.com/b/futuristic-truss-tower-reaching-moody-sky-dramatic-low-angle-shot-captures-massive-black-structure-glistening-421758990.jpg");
-    background-size: cover;
 
-}
-#BME{
-    background-image: url("https://images.assetsdelivery.com/compings_v2/pavelshlykov/pavelshlykov2301/pavelshlykov230100345.jpg");
+#BEE{
+    background-image:url("https://thumbs.dreamstime.com/b/electrical-spark-coils-image-depicts-vivid-occurring-two-metallic-bright-intense-light-intricate-patterns-424605923.jpg");
     background-size: cover;
 }
-#CHEM{
-    background-image: url("https://firstaidforlife.org.uk/wp-content/uploads/2018/03/poisoning-pill-bottle.jpg");
+
+#PCDS{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZp42jaO4KrlR6ROiGopLyp0TyYAJtLH9R1A&s");
     background-size: cover;
 }
-#ETW{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK38B0sS2wdQmtDedbydhvGJb1aWSEbngdLw&s");
+
+#BCE{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7n3_m2MrR-gSYKcInuFwQjWEmgvm8wLb3RQ&s");
     background-size: cover;
 }
+
+#PHY{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/076/318/184/small/modern-abstract-science-background-featuring-a-glowing-atom-symbol-with-neon-energy-rings-and-particles-ideal-for-physics-technology-research-education-and-innovation-concepts-vector.jpg");
+    background-size: cover;
+}
+
+#UHV{
+    background-image: url("https://t4.ftcdn.net/jpg/18/55/82/89/360_F_1855828945_7NXW1jezws09sA0EPss9Tmi8NXDlj4fG.jpg");
+    background-size: cover;
+}
+
 #MATH2{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8tgQo_uWOZI5qeM_aLt12EJoS18aIRXScQ&s");
     background-size: cover;
 }
+
 #MATH1{
     background-image: url("https://media.istockphoto.com/id/1066963840/photo/math-mathematics-formulas-exam-science-idea-innovation-head-silhouette.jpg?s=612x612&w=0&k=20&c=nQUolr_hJE_NzZgObKq8xYcfAvXhJY5-KaDPhRG9HTA=");
     background-size: cover;
 }
+
+/* Clean isolated structural attributes derived from Code 2 text sections */
 #math1{
     transform:translateX(11rem);
     margin-top: 2rem;
 }
+
 #math2{
      transform:translateX(-9rem);
      margin-top: 2rem;
 }
+
 .explore{
     margin-top: 1rem;
     font-weight: 600;
     font-size: 1.1rem;
     color:pink;
 }
+
 .subject{
     height:19rem;
     width:16rem;
@@ -173,47 +195,45 @@ h1{
     border-radius: 0.5rem;
     text-align: center;
     align-content: center;
-    
     box-shadow: 0 0 2rem rgba(0,0,0,1);
     color:white;
     border:0.1rem solid white;
     font-size:1.4rem;
     font-weight:700;
-    font-family:"Poppins",sans-serif ;
-
- 
+    font-family:"Poppins",sans-serif;
 }
+
 a{
     text-decoration: none;
     color:black;
-    
 }
 
 .upload{
     display: flex;
     height:2rem;
     width:7rem;
-    margin-right: 2.5rem;
+    margin-right: 2.5rem; /* Preserved Code 1 Structure */
     border-radius: 2rem;
     background-color:transparent;
     border:0.1rem solid white;
     justify-content: space-evenly;
     align-items: center;
-     box-shadow:0 0 1rem rgb(238, 231, 231,0.5);
-     color:white;
-     opacity: 1;
+    box-shadow:0 0 1rem rgb(238, 231, 231,0.5);
+    color:white;
+    opacity: 1;
 }
-.upload:hover{
 
+.upload:hover{
     background-color: white;
-    color:black
+    color:black;
 }
+
 .subject:hover{
-    box-shadow:0 0 2rem rgba(249, 246, 246,0.7) ;
+    box-shadow:0 0 2rem rgba(249, 246, 246,0.7);
     cursor:pointer;
     transform:translateZ(2rem);
-    
 }
+
 .sideBar{
     height:50rem;
     width:30rem;
@@ -221,31 +241,32 @@ a{
     z-index: 10;
     display: none;
 }
+
 .trendNotes{
     height:30rem;
     width:100%;
     display: flex;
     justify-content: space-evenly;
-   
 }
+
 .trend{
     height:25rem;
     width:17rem;
-    box-shadow:0 0 2rem rgba(73, 1, 60, 0.5) ;
+    box-shadow:0 0 2rem rgba(73, 1, 60, 0.5);
     border-radius: 2rem;
     border:0.1rem solid white;
     z-index:2;
-    transform:translateY(-20rem);
-   
+    transform:translateY(-5rem); /* Preserved Code 1 layout alignment */
 }
+
 .trendDesc{
     padding: 1rem;
     font-size: 1rem;
     font-family: "Monteserat",sans-serif;
     background-color: transparent;
-    
     color: white;
 }
+
 .trendView{
     display: flex;
     justify-content: space-between;
@@ -253,40 +274,43 @@ a{
     border-top: 0.1rem solid white;
     padding-top: 0.5rem;
 }
+
 .owner{
     margin-top: 1.2rem;
     text-align: center;
     font-size: 1.3rem;
-
 }
+
 .trendImg{
     height:13rem;
     width:17rem;
-    
     border-top-left-radius:2rem;
     border-top-right-radius:2rem;
-   
 }
+
+/* PRESERVED CRITICAL PRODUCTION ASSET SUBDIRECTORY PATHS */
 #trendImg1{
-    background-image: url("chemNote.jpeg");
+    background-image: url("/assets/subjects/phyNote.png");
     background-size: cover;
 }
 #trendImg2{
-    background-image: url("etwNote.jpeg");
+    background-image: url("/assets/subjects/uhvNote.jpeg");
     background-size: cover;
 }
 #trendImg3{
-    background-image: url("emNote.jpeg");
+    background-image: url("/assets/subjects/bceNote.png");
     background-size: cover;
 }
 #trendImg4{
-    background-image: url("bme.png");
+    background-image: url("/assets/subjects/pcdsNote.png");
     background-size: cover;
 }
+
 .trend:hover{
-    box-shadow:0 0 2rem rgba(234, 217, 217, 0.8) ;
+    box-shadow:0 0 2rem rgba(0,0,0,0.8);
     cursor:pointer;
 }
+
 .trendHead{
     color:white;
     padding-left: 2rem;
@@ -295,74 +319,75 @@ a{
     font-size: 3rem;
     font-weight: 800;
     font-style: italic;
-     z-index:2;
-   transform:translateY(-20rem);
-   
-   
+    z-index:2;
+    transform:translateY(-5rem); /* Preserved Code 1 Structural baseline */
 }
+
 .trendSrt{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .more{
     color:white;
-     z-index:2;
-    transform:translateY(-20rem);
+    z-index:2;
+    transform:translateY(-5rem); /* Preserved Code 1 Structure */
     font-size: 1.5rem;
     font-family: "Monteserat",sans-serif;
     font-weight: 700;
     background-color: transparent;
     backdrop-filter: blur(2rem);
-    
     padding:0.2rem 0.5rem;
 }
+
 .more:hover{
-    /* background-color: white; */
     color:pink;
 }
+
 #heading{
-    
     width:100vw;
     width:100%;
-    height:20vh;
+    height:20vh; /* Preserved production setup dimension from Code 1 */
     background-color: transparent;
     backdrop-filter: blur(0rem);  
-    
 }
+
 #heading h1{
     white-space : nowrap;
-    font-size: 17vw;
+    font-size: 17vw; /* Preserved production setup configuration from Code 1 */
     text-transform: uppercase;
     color:papayawhip;
     padding-top: 12rem;
     background-color: transparent;
     backdrop-filter: blur(2rem);
     font-style: italic;
-    
 }
+
 .latestNotes{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* PRESERVED CRITICAL PRODUCTION ASSET SUBDIRECTORY PATHS */
 #latestImg1{
-    background-image: url("mathNote.png");
+    background-image: url("/assets/subjects/Bee1.png");
     background-size: cover;
 }
 #latestImg2{
-    background-image: url("BeNote.png");
+    background-image: url("/assets/subjects/phy3.png");
     background-size: cover;
 }
 #latestImg3{
-    background-image: url("bme2Note.png");
+    background-image: url("/assets/subjects/bee3.png");
     background-size: cover;
 }
 #latestImg4{
-    background-image: url("opam.png");
+    background-image: url("/assets/subjects/math1.png");
     background-size: cover;
 }
+
 .footer{
     height:31rem;
     width:100%;
@@ -378,50 +403,67 @@ a{
     font-size: 1.2rem;
     padding-top: 1rem;
 }
+
 .contact{
     color:white;
     margin: 1.5rem;
-   opacity:0.8;
+    opacity:0.8;
 }
-.footerIcon{
-    margin-right: 0.5rem;
-}
+
 .footerMain h2{
     color:white;
     margin: 1.5rem;
 }
+
 .contact:hover{
     opacity:1;
 }
+
 .footerMain p:hover{
     opacity:1;
 }
+
+.footerIcon{
+    margin-right: 0.5rem;
+}
+
 .footerMain p{
     font-size: 1.5rem;
     margin:0.8rem;
-   opacity:0.7;
+    opacity:0.7;
 }
+
 .counter-container {
   text-align: center;
   font-family: sans-serif;
 }
+
 .counter {
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
 }
+
 .trendView div {
     display: flex;
     align-items: center;
-
 }
+
 .menu{
     color:black;
 }
+
 #full{
     color:transparent;
     z-index:-2;
 }
+
+/* ==========================================================================
+   INJECTED INTERACTIVE TEXT & CYBER CTA UPLOAD SECTIONS (CODE 2 UPDATES)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
 .text{
     color:white;
     display: flex;
@@ -433,14 +475,16 @@ a{
     transform:translateY(-4rem);
     gap:1rem;
 }
+
 #note{
     color:rgb(173, 106, 173);
 }
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
 #Upload{
     display: flex;
     justify-content: center;
 }
+
 .upload-btn-cyber {
   position: relative;
   bottom: 15rem;
@@ -479,7 +523,6 @@ a{
   transition: transform 0.3s ease;
 }
 
-
 .upload-btn-cyber:hover {
   transform: translateY(-0.31rem) scale(1.02);
   box-shadow: 0 0 0.62rem rgba(43, 2, 49, 0.8), 0 0 3.12rem rgba(5, 0, 7, 0.4);
@@ -507,7 +550,9 @@ a{
   100% { background-position: 0% 50%; }
 }
 
-/* ================= MOBILE RESPONSIVE ================= */
+/* ==========================================================================
+   MERGED MOBILE RESPONSIVE MEDIA QUERIES (768px BREAKPOINT)
+   ========================================================================== */
 
 @media (max-width: 768px) {
 
@@ -519,9 +564,9 @@ a{
         height: auto;
     }
 
-    /* Navbar */
+    /* Navbar Mobile */
     .navbar{
-        flex-direction: column;
+        flex-direction:column;
         height: auto;
         width: 100%;
         margin-left: 0;
@@ -549,25 +594,13 @@ a{
         display: none;
     }
     
-    #math1{
-    transform:translateX(0rem);
-   
-    }
-    #math2{
-     transform:translateX(0rem);
-    
-    }
-    .mathCycle{
-    margin-top: 5rem;
-    text-align: center;
-    }
     .menu{
-     color:white;
-     font-size: 1.7rem;
-     cursor:pointer
+        color:white;
+        font-size: 1.7rem;
+        cursor:pointer;
     }
+    
     #full{
-       
         height:15rem;
         width:10rem;
         background-color: transparent;
@@ -579,9 +612,8 @@ a{
         color:white;
         padding-left: 1.5rem;
         left:-50%;
-
-        
     }
+    
     #full p{
         margin-top: 1.5rem;
         font-size: 1.3rem;
@@ -589,16 +621,17 @@ a{
         font-family:"Monteserat",sans-serif;
         opacity:1;
     }
+    
     #full i{
         margin-left: 1.6rem;
         cursor:pointer;
     }
+    
     .option2{
         transform:translateX(0%);
         gap:5rem;
         overflow-x: hidden;
     }
-
 
     .upload{
         width: 6rem;
@@ -611,14 +644,23 @@ a{
         display: none;
     }
 
-    /* Content */
-
+    /* Content Mobile Components */
     .content{
         margin: 1rem;
     }
 
+    /* Code 2 dynamic layouts for maths components in mobile context */
+    #math1{
+        transform:translateX(0rem);
+    }
+    
+    #math2{
+         transform:translateX(0rem);
+    }
+    
     .mathCycle{
-        margin-top: 3rem;
+        margin-top: 5rem;
+        text-align: center;
     }
 
     .Cycle{
@@ -641,23 +683,14 @@ a{
         margin: auto;
     }
 
-    /* Huge Heading */
-
+    /* Huge Heading Mobile Hidden Hook */
     #heading{
         display: none;
     }
 
-    /* #heading h1{
-        font-size: 15vw;
-        padding-top: 2rem;
-        white-space: normal;
-        text-align: center;
-    } */ 
-
-    /* Trending Cards */
-
+    /* Trending Cards Mobile Mechanics */
     .trendHead{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-left: 1rem;
         transform: translateY(0);
         margin-top: 3rem;
@@ -670,6 +703,8 @@ a{
         gap: 2rem;
         margin-top: 2rem;
     }
+    
+    /* Code 2 additions to active link anchors inside mobile view rules */
     .trendNotes a {
          width: 90%;
         max-width: 340px;
@@ -692,49 +727,52 @@ a{
     .trendDesc{
         font-size: .95rem;
     }
+    
     .more{
         transform:translateY(0);
         font-size: 0.8rem;
         padding:0;
     }
+
+    /* Code 2 dynamic content styling for added sections inside media query */
     .text{
-    color:white;
+        color:white;
+        display: inline;
+        font-family: "Monteserat",sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 1rem;
+        transform:translateY(-1rem);
+        gap:1rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
     
-    display: inline;
-    font-family: "Monteserat",sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    font-size: 1rem;
-    transform:translateY(-1rem);
-    gap:1rem;
-    padding-left: 1rem;
-    text-align: center;
-    }
     #note{
-    color:rgb(173, 106, 173);
-    text-align: center;
+        color:rgb(173, 106, 173);
+        text-align: center;
     }
+    
     .upload-btn-cyber {
-    position: relative;
-    margin-top: 1rem;
-    bottom: 0rem;
-    right: 2rem;
-    padding: 0.18rem; /* Creates the space for the gradient border */
-    background: linear-gradient(90deg, #ebe9ec, #9e5d96, #917f7f);
-    background-size: 200% auto;
-    border: none;
-    border-radius: 0.75rem;
-    cursor: pointer;
-    z-index: 1000;
-    box-shadow: 0 0 0.93rem rgba(222, 234, 234, 0.3);
-    transition: all 0.4s ease;
-    animation: cyber-gradient 3s linear infinite;
-    border:0.1rem solid white;
-    transform:translateX(1.5rem);
+        position: relative;
+        bottom: 0rem;
+        margin-top: 1rem;
+        right: 2rem;
+        padding: 0.18rem;
+        background: linear-gradient(90deg, #ebe9ec, #9e5d96, #917f7f);
+        background-size: 200% auto;
+        border: none;
+        border-radius: 0.75rem;
+        cursor: pointer;
+        z-index: 1000;
+        box-shadow: 0 0 0.93rem rgba(222, 234, 234, 0.3);
+        transition: all 0.4s ease;
+        animation: cyber-gradient 3s linear infinite;
+        border:0.1rem solid white;
+        transform:translateX(1.5rem);
     }
 
-    /* Footer */
-
+    /* Footer Mobile Configurations */
     .footer{
         margin-top: 1rem;
         flex-direction: column;
@@ -748,142 +786,4 @@ a{
         height: auto;
         margin-bottom: 2rem;
     }
-
-}
-/* ================= TABLET / iPAD RESPONSIVE ================= */
-
-@media (min-width:769px) and (max-width:1026px){
-
-    body{
-        overflow-x:hidden;
-    }
-
-    .main{
-        height:auto;
-    }
-
-    /* Navbar */
-
-    .navbar{
-        width:97%;
-        margin-left:0;
-        padding:1rem;
-    }
-
-    .icon{
-        font-size:1rem;
-    }
-
-    .option{
-        width:17rem;
-        margin-left:2rem;
-        font-size:.9rem;
-    }
-
-    .option2{
-        transform:translateX(0);
-        gap:1rem;
-    }
-
-    .profile{
-        font-size:1.4rem;
-    }
-
-    .upload{
-        width:6.5rem;
-    }
-
-    /* Subjects */
-
-    .content{
-        margin:2rem;
-    }
-
-    .Cycle{
-        justify-content:center;
-        gap:2rem;
-        height:auto;
-    }
-
-    .subject{
-        width:14rem;
-        height:17rem;
-        font-size:1.2rem;
-    }
-
-    .logoCycle{
-        width:7rem;
-        height:7rem;
-        transform:translateX(0);
-        margin:auto;
-    }
-
-    #math1,
-    #math2{
-        transform:none;
-    }
-
-    .mathCycle{
-        margin-top:5rem;
-    }
-
-    /* Trending */
-
-    .trendNotes{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:2rem;
-        height:auto;
-    }
-
-    .trend{
-        width:18rem;
-        height:25rem;
-        transform:translateY(0);
-    }
-
-    .trendImg{
-        width:18rem;
-    }
-
-    .trendHead,
-    .more{
-        transform:translateY(0);
-    }
-
-    .trendHead{
-        font-size:2.3rem;
-    }
-
-    /* Upload Button */
-
-    .text{
-        font-size:1.3rem;
-        transform:translateY(0);
-        text-align:center;
-        flex-wrap:wrap;
-    }
-
-    .upload-btn-cyber{
-        position:relative;
-        bottom:0;
-        right:0;
-        margin:2rem auto;
-    }
-
-    /* Footer */
-
-    .footer{
-        flex-wrap:nowrap;
-        justify-content:center;
-        height:auto;
-        padding:2rem 0;
-    }
-
-    .footerMain{
-        width:45%;
-        height:auto;
-        margin-bottom:2rem;
-    }
-
 }
