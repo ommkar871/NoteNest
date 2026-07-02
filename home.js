@@ -1,6 +1,8 @@
 const counters = document.querySelectorAll('.counter');
 const signupBtn=document.getElementById("SignUp")
 const loginBtn=document.getElementById("Login")
+const getstartedBtn=document.getElementById("start")
+
 
 signupBtn.addEventListener("click",()=>{
   window.location.href = "/components/signUp.html"
@@ -10,6 +12,9 @@ loginBtn.addEventListener("click",()=>{
 })
 document.getElementById("joinNow").addEventListener("click",()=>{
   window.location.href = "/components/signUp.html"  
+})
+getstartedBtn.addEventListener("click",()=>{
+  window.location.href = "/components/signUp.html"
 })
 
 
